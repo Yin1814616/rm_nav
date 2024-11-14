@@ -1,0 +1,38 @@
+[0.071s] Invoking command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/linefit_ground_segementation_ros2/linefit_ground_segmentation -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/linefit_ground_segmentation
+[0.135s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.489s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.532s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.596s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.788s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.674s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.676s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.210s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.256s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.725s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.744s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.981s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.989s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.997s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.252s] -- Found Qhull version 8.0.2
+[3.498s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.119s] -- Configuring done
+[4.256s] -- Generating done
+[4.269s] -- Build files have been written to: /home/jason/Desktop/navi/build/linefit_ground_segmentation
+[4.332s] Invoked command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/linefit_ground_segementation_ros2/linefit_ground_segmentation -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/linefit_ground_segmentation
+[4.343s] Invoking command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/linefit_ground_segmentation -- -j20 -l20
+[4.594s] [35m[1mConsolidate compiler generated dependencies of target linefit_ground_segmentation[0m
+[4.594s] [ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+[4.594s] [ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[4.594s] [ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[4.595s] [ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[19.049s] gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:104: CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o] Interrupt
+[19.049s] gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:90: CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o] Interrupt
+[19.049s] gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:118: CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o] Interrupt
+[19.069s] gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:76: CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o] Interrupt
+[19.069s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/linefit_ground_segmentation.dir/all] Interrupt
+[19.069s] gmake: *** [Makefile:146: all] Interrupt

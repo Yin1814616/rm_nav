@@ -1,0 +1,50 @@
+[0.063s] Invoking command in '/home/jason/Desktop/navi/build/path2waypoint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/global_planner/path2waypoint -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/path2waypoint
+[0.128s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.299s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.309s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.357s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.495s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.498s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.915s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.000s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.194s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.290s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.290s] -- Configured cppcheck include dirs: 
+[1.290s] -- Configured cppcheck exclude dirs and/or files: 
+[1.290s] -- Added test 'lint_cmake' to check CMake code style
+[1.291s] -- Added test 'uncrustify' to check C / C++ code style
+[1.291s] -- Configured uncrustify additional arguments: 
+[1.291s] -- Added test 'xmllint' to check XML markup files
+[1.293s] -- Configuring done
+[1.306s] -- Generating done
+[1.322s] -- Build files have been written to: /home/jason/Desktop/navi/build/path2waypoint
+[1.333s] Invoked command in '/home/jason/Desktop/navi/build/path2waypoint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/global_planner/path2waypoint -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/path2waypoint
+[1.334s] Invoking command in '/home/jason/Desktop/navi/build/path2waypoint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/path2waypoint -- -j20 -l20
+[2.491s] [35m[1mConsolidate compiler generated dependencies of target path2waypoint[0m
+[2.491s] [100%] Built target path2waypoint
+[2.498s] Invoked command in '/home/jason/Desktop/navi/build/path2waypoint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/path2waypoint -- -j20 -l20
+[2.547s] Invoking command in '/home/jason/Desktop/navi/build/path2waypoint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/path2waypoint
+[2.664s] -- Install configuration: "Release"
+[2.665s] -- Execute custom install script
+[2.665s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/lib/path2waypoint/path2waypoint
+[2.665s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/package_run_dependencies/path2waypoint
+[2.665s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/parent_prefix_path/path2waypoint
+[2.665s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/ament_prefix_path.sh
+[2.665s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/ament_prefix_path.dsv
+[2.665s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/path.sh
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/path.dsv
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.bash
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.sh
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.zsh
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.dsv
+[2.666s] -- Symlinking: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.dsv
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/packages/path2waypoint
+[2.666s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/cmake/path2waypointConfig.cmake
+[2.667s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/cmake/path2waypointConfig-version.cmake
+[2.667s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.xml
+[2.696s] Invoked command in '/home/jason/Desktop/navi/build/path2waypoint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/path2waypoint

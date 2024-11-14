@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target a_star[0m
+[ 50%] Built target a_star_node
+[100%] Built target a_star
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/lib/a_star/a_star_node
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/include/a_star/a_star.hpp
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/library_path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/library_path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/lib/liba_star.so
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/package_run_dependencies/a_star
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/parent_prefix_path/a_star
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.bash
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.zsh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.dsv
+-- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/package.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/packages/a_star
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/rclcpp_components/a_star
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/a_starConfig.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/a_starConfig-version.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/package.xml

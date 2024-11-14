@@ -1,0 +1,3 @@
+/home/jason/Desktop/navi/install/joy/lib/libjoy.so
+/home/jason/Desktop/navi/install/joy/share/joy/cmake/export_joyExport.cmake
+/home/jason/Desktop/navi/install/joy/share/joy/cmake/export_joyExport-release.cmake

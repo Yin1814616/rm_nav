@@ -1,0 +1,1 @@
+/home/jason/Desktop/navi/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.sh

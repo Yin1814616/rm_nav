@@ -1,0 +1,26 @@
+[0.075s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/terrain_analysis_ext -- -j20 -l20
+[0.271s] [ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysisExt.dir/src/terrainAnalysisExt.cpp.o[0m
+[62.336s] [100%] [32m[1mLinking CXX executable terrainAnalysisExt[0m
+[63.127s] [100%] Built target terrainAnalysisExt
+[63.143s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/terrain_analysis_ext -- -j20 -l20
+[63.182s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/terrain_analysis_ext
+[63.192s] -- Install configuration: "Release"
+[63.193s] -- Execute custom install script
+[63.194s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/lib/terrain_analysis_ext/terrainAnalysisExt
+[63.194s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/terrain_analysis_ext.launch
+[63.195s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/ament_index/resource_index/package_run_dependencies/terrain_analysis_ext
+[63.195s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/ament_index/resource_index/parent_prefix_path/terrain_analysis_ext
+[63.195s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.sh
+[63.195s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.dsv
+[63.195s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.sh
+[63.195s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.dsv
+[63.196s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.bash
+[63.196s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.sh
+[63.196s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.zsh
+[63.196s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.dsv
+[63.196s] -- Symlinking: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv
+[63.210s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/ament_index/resource_index/packages/terrain_analysis_ext
+[63.210s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig.cmake
+[63.211s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig-version.cmake
+[63.211s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/package.xml
+[63.214s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/terrain_analysis_ext

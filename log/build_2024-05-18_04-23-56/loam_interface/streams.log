@@ -1,0 +1,125 @@
+[0.083s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/loam_interface
+[0.324s] -- The C compiler identification is GNU 11.4.0
+[0.473s] -- The CXX compiler identification is GNU 11.4.0
+[0.537s] -- Detecting C compiler ABI info
+[0.819s] -- Detecting C compiler ABI info - done
+[0.851s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.851s] -- Detecting C compile features
+[0.852s] -- Detecting C compile features - done
+[0.866s] -- Detecting CXX compiler ABI info
+[1.211s] -- Detecting CXX compiler ABI info - done
+[1.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.228s] -- Detecting CXX compile features
+[1.229s] -- Detecting CXX compile features - done
+[1.234s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.827s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.115s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.229s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.444s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.457s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.514s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.839s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.846s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.187s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.302s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.524s] -- Looking for pthread.h
+[3.852s] -- Looking for pthread.h - found
+[3.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.201s] -- Found Threads: TRUE  
+[4.832s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.160s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.382s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.588s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.651s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.656s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.656s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.686s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[7.046s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[7.432s] -- Checking for module 'eigen3'
+[7.514s] --   Found eigen3, version 3.4.0
+[7.657s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.658s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.773s] -- Checking for module 'flann'
+[7.821s] --   Found flann, version 1.9.1
+[7.937s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.937s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.103s] -- Checking for module 'libusb-1.0'
+[11.129s] --   Found libusb-1.0, version 1.0.25
+[11.260s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.263s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.422s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.886s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.906s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.922s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.273s] -- Found Qhull version 8.0.2
+[12.637s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.004s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[13.004s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[13.004s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[13.006s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[13.009s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.012s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.013s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[13.015s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[13.019s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.024s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.028s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[13.031s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[13.034s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[13.043s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[13.046s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.049s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[13.052s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.054s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.058s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.060s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.063s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.064s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.065s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.067s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.070s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.257s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.606s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.638s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.638s] -- Configured cppcheck include dirs: 
+[13.638s] -- Configured cppcheck exclude dirs and/or files: 
+[13.638s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.639s] -- Configured cpplint exclude dirs and/or files: 
+[13.639s] -- Added test 'lint_cmake' to check CMake code style
+[13.639s] -- Added test 'uncrustify' to check C / C++ code style
+[13.639s] -- Configured uncrustify additional arguments: 
+[13.639s] -- Added test 'xmllint' to check XML markup files
+[13.639s] -- Configuring done
+[13.738s] -- Generating done
+[13.744s] -- Build files have been written to: /home/jason/Desktop/navi/build/loam_interface
+[13.806s] Invoked command in '/home/jason/Desktop/navi/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/loam_interface
+[13.807s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/loam_interface -- -j20 -l20
+[15.270s] [ 50%] [32mBuilding CXX object CMakeFiles/loamInterface.dir/src/loamInterface.cpp.o[0m
+[80.449s] [100%] [32m[1mLinking CXX executable loamInterface[0m
+[81.435s] [100%] Built target loamInterface
+[81.455s] Invoked command in '/home/jason/Desktop/navi/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/loam_interface -- -j20 -l20
+[81.506s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/loam_interface
+[81.519s] -- Install configuration: "Release"
+[81.520s] -- Execute custom install script
+[81.521s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/lib/loam_interface/loamInterface
+[81.538s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/launch/loam_interface.launch
+[81.555s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[81.572s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[81.588s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[81.605s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[81.621s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/path.sh
+[81.638s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/path.dsv
+[81.654s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.bash
+[81.671s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.sh
+[81.687s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.zsh
+[81.704s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.dsv
+[81.721s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/package.dsv
+[81.737s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[81.754s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[81.770s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[81.785s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/package.xml
+[81.804s] Invoked command in '/home/jason/Desktop/navi/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/loam_interface

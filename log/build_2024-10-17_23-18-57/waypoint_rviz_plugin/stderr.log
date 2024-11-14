@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/waypoint_rviz_plugin.dir/build.make:108: CMakeFiles/waypoint_rviz_plugin.dir/include/moc_waypoint_tool.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/waypoint_rviz_plugin.dir/build.make:94: CMakeFiles/waypoint_rviz_plugin.dir/src/waypoint_tool.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/waypoint_rviz_plugin.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

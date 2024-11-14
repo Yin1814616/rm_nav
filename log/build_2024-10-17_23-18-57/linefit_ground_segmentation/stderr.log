@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:104: CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:90: CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:118: CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:76: CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/linefit_ground_segmentation.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

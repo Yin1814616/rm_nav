@@ -1,0 +1,41 @@
+[0.120s] Invoking command in '/home/jason/Desktop/navi/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/visualization_tools -- -j20 -l20
+[0.246s] [  0%] Built target ament_cmake_python_symlink_visualization_tools
+[0.251s] [100%] Built target visualizationTools
+[0.509s] running egg_info
+[0.510s] writing visualization_tools.egg-info/PKG-INFO
+[0.510s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[0.510s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[0.512s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[0.513s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[0.541s] [100%] Built target ament_cmake_python_build_visualization_tools_egg
+[0.634s] Invoked command in '/home/jason/Desktop/navi/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/visualization_tools -- -j20 -l20
+[0.738s] Invoking command in '/home/jason/Desktop/navi/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/visualization_tools
+[0.747s] -- Install configuration: "Release"
+[0.747s] -- Execute custom install script
+[0.748s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/lib/visualization_tools/visualizationTools
+[0.748s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/launch/visualization_tools.launch
+[0.750s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/pythonpath.sh
+[0.750s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/pythonpath.dsv
+[0.751s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/PKG-INFO
+[0.755s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.755s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.755s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/top_level.txt
+[0.755s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py
+[0.755s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/lib/visualization_tools/realTimePlot.py
+[0.755s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/ament_index/resource_index/package_run_dependencies/visualization_tools
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/ament_index/resource_index/parent_prefix_path/visualization_tools
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.sh
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.dsv
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/path.sh
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/path.dsv
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.bash
+[0.756s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.sh
+[0.757s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.zsh
+[0.757s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.dsv
+[0.757s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/package.dsv
+[0.762s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/ament_index/resource_index/packages/visualization_tools
+[0.762s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig.cmake
+[0.762s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig-version.cmake
+[0.762s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/package.xml
+[0.799s] Listing '/home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools'...
+[0.805s] Invoked command in '/home/jason/Desktop/navi/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/visualization_tools

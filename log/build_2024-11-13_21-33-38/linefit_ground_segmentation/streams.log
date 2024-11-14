@@ -1,0 +1,38 @@
+[0.074s] Invoking command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/linefit_ground_segmentation -- -j20 -l20
+[0.281s] [ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+[0.308s] [ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[0.311s] [ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[0.313s] [ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[28.672s] [100%] [32m[1mLinking CXX shared library liblinefit_ground_segmentation.so[0m
+[31.392s] [100%] Built target linefit_ground_segmentation
+[31.426s] Invoked command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/linefit_ground_segmentation -- -j20 -l20
+[31.584s] Invoking command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/linefit_ground_segmentation
+[42.472s] -- Install configuration: "Release"
+[42.473s] -- Execute custom install script
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+[42.473s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+[42.474s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+[42.477s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+[42.477s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+[42.477s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+[42.477s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+[42.477s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+[42.478s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+[42.478s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+[42.478s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+[42.478s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+[42.478s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+[42.478s] -- Symlinking: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+[42.480s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+[42.480s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.480s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.481s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[42.481s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+[42.482s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+[42.482s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml
+[42.539s] Invoked command in '/home/jason/Desktop/navi/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/linefit_ground_segmentation

@@ -1,0 +1,23 @@
+[0.083s] Invoking command in '/home/jason/Desktop/navi/build/path2waypoint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/path2waypoint -- -j20 -l20
+[0.191s] [100%] Built target path2waypoint
+[0.232s] Invoked command in '/home/jason/Desktop/navi/build/path2waypoint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/path2waypoint -- -j20 -l20
+[0.353s] Invoking command in '/home/jason/Desktop/navi/build/path2waypoint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/path2waypoint
+[0.389s] -- Install configuration: "Release"
+[0.389s] -- Execute custom install script
+[0.389s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/lib/path2waypoint/path2waypoint
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/package_run_dependencies/path2waypoint
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/parent_prefix_path/path2waypoint
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/ament_prefix_path.sh
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/path.sh
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/path.dsv
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.bash
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.sh
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.zsh
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.dsv
+[0.390s] -- Symlinking: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.dsv
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/packages/path2waypoint
+[0.391s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/cmake/path2waypointConfig.cmake
+[0.391s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/cmake/path2waypointConfig-version.cmake
+[0.391s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.xml
+[0.421s] Invoked command in '/home/jason/Desktop/navi/build/path2waypoint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/path2waypoint

@@ -1,0 +1,4 @@
+source;share/path2waypoint/local_setup.bash
+source;share/path2waypoint/local_setup.dsv
+source;share/path2waypoint/local_setup.sh
+source;share/path2waypoint/local_setup.zsh

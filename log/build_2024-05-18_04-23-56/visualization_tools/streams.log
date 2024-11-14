@@ -1,0 +1,148 @@
+[0.167s] Invoking command in '/home/jason/Desktop/navi/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/visualization_tools
+[6.965s] -- The C compiler identification is GNU 11.4.0
+[6.966s] -- The CXX compiler identification is GNU 11.4.0
+[6.966s] -- Detecting C compiler ABI info
+[6.966s] -- Detecting C compiler ABI info - done
+[6.966s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.966s] -- Detecting C compile features
+[6.966s] -- Detecting C compile features - done
+[6.966s] -- Detecting CXX compiler ABI info
+[6.967s] -- Detecting CXX compiler ABI info - done
+[6.967s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.967s] -- Detecting CXX compile features
+[6.967s] -- Detecting CXX compile features - done
+[6.967s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.967s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.968s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.968s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[6.968s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.968s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.968s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.969s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.969s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.969s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.969s] -- Looking for pthread.h
+[6.970s] -- Looking for pthread.h - found
+[6.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.970s] -- Found Threads: TRUE  
+[6.970s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[6.970s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.970s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.970s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.970s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.971s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.971s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.971s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.971s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.971s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[7.323s] -- Checking for module 'eigen3'
+[7.411s] --   Found eigen3, version 3.4.0
+[7.614s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.614s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.754s] -- Checking for module 'flann'
+[7.807s] --   Found flann, version 1.9.1
+[7.983s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.983s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.822s] -- Checking for module 'libusb-1.0'
+[10.850s] --   Found libusb-1.0, version 1.0.25
+[10.930s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.932s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.073s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.507s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.522s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.536s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.925s] -- Found Qhull version 8.0.2
+[12.334s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.985s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.988s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.990s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.993s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.996s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.001s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.002s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[13.004s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[13.007s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.010s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.012s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[13.015s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[13.018s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[13.023s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[13.026s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.030s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[13.033s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.036s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.039s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.041s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.043s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.044s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.045s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.048s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.051s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.519s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.804s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.807s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.809s] -- Configured cppcheck include dirs: 
+[13.809s] -- Configured cppcheck exclude dirs and/or files: 
+[13.812s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.812s] -- Configured cpplint exclude dirs and/or files: 
+[13.814s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.816s] -- Added test 'lint_cmake' to check CMake code style
+[13.817s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.819s] -- Added test 'uncrustify' to check C / C++ code style
+[13.819s] -- Configured uncrustify additional arguments: 
+[13.821s] -- Added test 'xmllint' to check XML markup files
+[13.824s] -- Configuring done
+[13.902s] -- Generating done
+[13.916s] -- Build files have been written to: /home/jason/Desktop/navi/build/visualization_tools
+[13.970s] Invoked command in '/home/jason/Desktop/navi/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/visualization_tools
+[13.971s] Invoking command in '/home/jason/Desktop/navi/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/visualization_tools -- -j20 -l20
+[15.905s] [ 50%] [32mBuilding CXX object CMakeFiles/visualizationTools.dir/src/visualizationTools.cpp.o[0m
+[15.921s] [ 50%] Built target ament_cmake_python_symlink_visualization_tools
+[15.921s] running egg_info
+[15.922s] creating visualization_tools.egg-info
+[15.922s] writing visualization_tools.egg-info/PKG-INFO
+[15.922s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[15.922s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[15.922s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[15.922s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[15.922s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[15.922s] [ 50%] Built target ament_cmake_python_build_visualization_tools_egg
+[86.315s] [100%] [32m[1mLinking CXX executable visualizationTools[0m
+[87.214s] [100%] Built target visualizationTools
+[87.228s] Invoked command in '/home/jason/Desktop/navi/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/visualization_tools -- -j20 -l20
+[87.271s] Invoking command in '/home/jason/Desktop/navi/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/visualization_tools
+[87.272s] -- Install configuration: "Release"
+[87.273s] -- Execute custom install script
+[87.273s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/lib/visualization_tools/visualizationTools
+[87.286s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/launch/visualization_tools.launch
+[87.300s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/pythonpath.sh
+[87.314s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/pythonpath.dsv
+[87.328s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/PKG-INFO
+[87.341s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/SOURCES.txt
+[87.354s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/dependency_links.txt
+[87.366s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/top_level.txt
+[87.376s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py
+[87.387s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/lib/visualization_tools/realTimePlot.py
+[87.397s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/ament_index/resource_index/package_run_dependencies/visualization_tools
+[87.407s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/ament_index/resource_index/parent_prefix_path/visualization_tools
+[87.417s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.sh
+[87.428s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.dsv
+[87.438s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/path.sh
+[87.448s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/environment/path.dsv
+[87.458s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.bash
+[87.468s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.sh
+[87.479s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.zsh
+[87.490s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/local_setup.dsv
+[87.500s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/package.dsv
+[87.513s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/ament_index/resource_index/packages/visualization_tools
+[87.525s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig.cmake
+[87.536s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig-version.cmake
+[87.547s] -- Symlinking: /home/jason/Desktop/navi/install/visualization_tools/share/visualization_tools/package.xml
+[87.596s] Listing '/home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools'...
+[87.597s] Compiling '/home/jason/Desktop/navi/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py'...
+[87.605s] Invoked command in '/home/jason/Desktop/navi/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/visualization_tools

@@ -1,0 +1,35 @@
+[0.075s] Invoking command in '/home/jason/Desktop/navi/build/a_star': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/a_star -- -j20 -l20
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target a_star_node[0m
+[0.266s] [ 50%] Built target a_star_node
+[0.266s] [ 75%] [32mBuilding CXX object CMakeFiles/a_star.dir/src/a_star.cpp.o[0m
+[65.085s] [100%] [32m[1mLinking CXX shared library liba_star.so[0m
+[65.523s] [100%] Built target a_star
+[65.535s] Invoked command in '/home/jason/Desktop/navi/build/a_star' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/a_star -- -j20 -l20
+[65.573s] Invoking command in '/home/jason/Desktop/navi/build/a_star': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/a_star
+[65.584s] -- Install configuration: "Release"
+[65.584s] -- Execute custom install script
+[65.585s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/lib/a_star/a_star_node
+[65.585s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/include/a_star/a_star.hpp
+[65.585s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/library_path.sh
+[65.586s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/library_path.dsv
+[65.586s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/lib/liba_star.so
+[65.587s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/package_run_dependencies/a_star
+[65.587s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/parent_prefix_path/a_star
+[65.587s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/ament_prefix_path.sh
+[65.587s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/ament_prefix_path.dsv
+[65.587s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/path.sh
+[65.588s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/path.dsv
+[65.588s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.bash
+[65.588s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.sh
+[65.588s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.zsh
+[65.588s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.dsv
+[65.588s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/package.dsv
+[65.599s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/packages/a_star
+[65.599s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/rclcpp_components/a_star
+[65.599s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.599s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.599s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_libraries-extras.cmake
+[65.599s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/a_starConfig.cmake
+[65.600s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/a_starConfig-version.cmake
+[65.600s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/a_star/share/a_star/package.xml
+[65.603s] Invoked command in '/home/jason/Desktop/navi/build/a_star' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/a_star

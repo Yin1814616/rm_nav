@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/joy.dir/build.make:76: CMakeFiles/joy.dir/src/joy.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/joy.dir/all] Interrupt
+gmake: *** wait: No child processes.  Stop.
+gmake: *** Waiting for unfinished jobs....
+gmake: *** wait: No child processes.  Stop.

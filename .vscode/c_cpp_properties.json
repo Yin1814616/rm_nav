@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jason/Desktop/auto_aim/install/rm_serial_driver/include/**",
+        "/home/jason/Desktop/auto_aim/install/armor_tracker/include/**",
+        "/home/jason/Desktop/auto_aim/install/armor_detector/include/**",
+        "/home/jason/Desktop/auto_aim/install/auto_aim_interfaces/include/**",
+        "/home/jason/Desktop/navi/install/velodyne_gazebo_plugins/include/**",
+        "/home/jason/Desktop/navi/install/fast_lio/include/**",
+        "/home/jason/Desktop/navi/install/livox_ros_driver2/include/**",
+        "/home/jason/Desktop/navi/install/linefit_ground_segmentation/include/**",
+        "/home/jason/Desktop/navi/install/joy/include/**",
+        "/home/jason/Desktop/navi/install/icp_localization_ros2/include/**",
+        "/home/jason/Desktop/navi/install/a_star/include/**",
+        "/home/jason/Desktop/ground_seg/install/linefit_ground_segmentation/include/**",
+        "/home/jason/Desktop/ws_livox/install/livox_ros_driver2/include/**",
+        "/home/jason/Desktop/ws_lio/install/fast_lio/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/jason/Desktop/navi/src/global_planner/a_star/include/**",
+        "/home/jason/Desktop/navi/src/global_planner/path2waypoint/include/**",
+        "/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/joystick_drivers/joy/include/**",
+        "/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins/include/**",
+        "/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/include/**",
+        "/home/jason/Desktop/navi/src/local_planner/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/**",
+        "/home/jason/Desktop/navi/src/localization/FAST_LIO/include/**",
+        "/home/jason/Desktop/navi/src/localization/icp_localization_ros2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

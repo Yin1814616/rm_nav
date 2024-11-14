@@ -1,0 +1,1 @@
+/home/jason/Desktop/navi/build/path2waypoint/ament_cmake_environment_hooks/local_setup.bash

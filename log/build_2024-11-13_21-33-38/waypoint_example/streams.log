@@ -1,0 +1,28 @@
+[0.075s] Invoking command in '/home/jason/Desktop/navi/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/waypoint_example -- -j20 -l20
+[35.344s] [ 50%] [32mBuilding CXX object CMakeFiles/waypointExample.dir/src/waypointExample.cpp.o[0m
+[41.484s] [100%] [32m[1mLinking CXX executable waypointExample[0m
+[42.358s] [100%] Built target waypointExample
+[42.392s] Invoked command in '/home/jason/Desktop/navi/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/waypoint_example -- -j20 -l20
+[42.515s] Invoking command in '/home/jason/Desktop/navi/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/waypoint_example
+[42.537s] -- Install configuration: "Release"
+[42.541s] -- Execute custom install script
+[42.541s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/lib/waypoint_example/waypointExample
+[42.542s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/launch/waypoint_example_garage.launch
+[42.542s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/data/boundary_garage.ply
+[42.542s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/data/waypoints_garage.ply
+[42.542s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/ament_index/resource_index/package_run_dependencies/waypoint_example
+[42.542s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/ament_index/resource_index/parent_prefix_path/waypoint_example
+[42.543s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/environment/ament_prefix_path.sh
+[42.544s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/environment/ament_prefix_path.dsv
+[42.544s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/environment/path.sh
+[42.544s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/environment/path.dsv
+[42.545s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/local_setup.bash
+[42.545s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/local_setup.sh
+[42.550s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/local_setup.zsh
+[42.550s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/local_setup.dsv
+[42.550s] -- Symlinking: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/package.dsv
+[42.573s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/ament_index/resource_index/packages/waypoint_example
+[42.573s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/cmake/waypoint_exampleConfig.cmake
+[42.573s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/cmake/waypoint_exampleConfig-version.cmake
+[42.573s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/waypoint_example/share/waypoint_example/package.xml
+[42.609s] Invoked command in '/home/jason/Desktop/navi/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/waypoint_example

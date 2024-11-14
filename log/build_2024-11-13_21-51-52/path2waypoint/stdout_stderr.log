@@ -1,0 +1,19 @@
+[100%] Built target path2waypoint
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/lib/path2waypoint/path2waypoint
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/package_run_dependencies/path2waypoint
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/parent_prefix_path/path2waypoint
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/environment/path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.bash
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.zsh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/local_setup.dsv
+-- Symlinking: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/ament_index/resource_index/packages/path2waypoint
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/cmake/path2waypointConfig.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/cmake/path2waypointConfig-version.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.xml

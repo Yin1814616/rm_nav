@@ -1,0 +1,36 @@
+[0.077s] Invoking command in '/home/jason/Desktop/navi/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NX_CONNECTION=192.168.3.36 64935 192.168.3.35 4000 /usr/bin/cmake --build /home/jason/Desktop/navi/build/joy -- -j20 -l20
+[0.235s] [ 33%] Built target joy_enumerate_devices
+[0.235s] [ 66%] Built target joy_node
+[0.235s] [100%] Built target joy
+[0.242s] Invoked command in '/home/jason/Desktop/navi/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NX_CONNECTION=192.168.3.36 64935 192.168.3.35 4000 /usr/bin/cmake --build /home/jason/Desktop/navi/build/joy -- -j20 -l20
+[0.363s] Invoking command in '/home/jason/Desktop/navi/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NX_CONNECTION=192.168.3.36 64935 192.168.3.35 4000 /usr/bin/cmake --install /home/jason/Desktop/navi/build/joy
+[0.384s] -- Install configuration: "Release"
+[0.384s] -- Execute custom install script
+[0.385s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/lib/joy/joy_node
+[0.385s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/lib/joy/joy_enumerate_devices
+[0.386s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/include/joy/joy/joy.hpp
+[0.386s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/config/joy-params.yaml
+[0.386s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/launch/joy-composed-launch.py
+[0.388s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/launch/joy-launch.py
+[0.388s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[0.388s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[0.388s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/ament_prefix_path.sh
+[0.389s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/path.sh
+[0.390s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/path.dsv
+[0.391s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.bash
+[0.391s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.sh
+[0.392s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.zsh
+[0.392s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.dsv
+[0.393s] -- Symlinking: /home/jason/Desktop/navi/install/joy/share/joy/package.dsv
+[0.398s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/packages/joy
+[0.398s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[0.398s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[0.399s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.399s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/joyConfig.cmake
+[0.399s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/joyConfig-version.cmake
+[0.399s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/package.xml
+[0.399s] -- Up-to-date: /home/jason/Desktop/navi/install/joy/lib/libjoy.so
+[0.399s] -- Up-to-date: /home/jason/Desktop/navi/install/joy/share/joy/cmake/export_joyExport.cmake
+[0.399s] -- Up-to-date: /home/jason/Desktop/navi/install/joy/share/joy/cmake/export_joyExport-release.cmake
+[0.438s] Invoked command in '/home/jason/Desktop/navi/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NX_CONNECTION=192.168.3.36 64935 192.168.3.35 4000 /usr/bin/cmake --install /home/jason/Desktop/navi/build/joy

@@ -1,0 +1,101 @@
+[0.073s] Invoking command in '/home/jason/Desktop/navi/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/velodyne_gazebo_plugins
+[0.400s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.401s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.482s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.485s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.495s] -- Searching for dependencies of ignition-math6
+[0.500s] -- Looking for OGRE...
+[0.509s] -- Found Ogre Ghadamon (1.9.0)
+[0.511s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.524s] -- Looking for OGRE_Paging...
+[0.524s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.525s] -- Looking for OGRE_Terrain...
+[0.525s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.525s] -- Looking for OGRE_Property...
+[0.525s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.526s] -- Looking for OGRE_RTShaderSystem...
+[0.526s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.526s] -- Looking for OGRE_Volume...
+[0.526s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.526s] -- Looking for OGRE_Overlay...
+[0.527s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.770s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.771s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.772s] -- Searching for dependencies of ignition-transport8
+[0.801s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.819s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.828s] -- Checking for module 'libzmq >= 4'
+[0.847s] --   Found libzmq , version 4.3.4
+[0.909s] -- Checking for module 'uuid'
+[0.928s] --   Found uuid, version 2.37.2
+[0.966s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.967s] -- Searching for dependencies of ignition-msgs5
+[1.001s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.009s] -- Checking for module 'tinyxml2'
+[1.028s] --   Found tinyxml2, version 9.0.0
+[1.069s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.070s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.070s] -- Searching for dependencies of ignition-common3
+[1.071s] -- Looking for dlfcn.h - found
+[1.071s] -- Looking for libdl - found
+[1.087s] -- Searching for <ignition-common3> component [graphics]
+[1.088s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.089s] -- Searching for dependencies of ignition-common3-graphics
+[1.089s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.091s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.092s] -- Searching for dependencies of ignition-fuel_tools4
+[1.146s] -- Checking for module 'jsoncpp'
+[1.166s] --   Found jsoncpp, version 1.9.5
+[1.217s] -- Checking for module 'libzip'
+[1.236s] --   Found libzip, version 1.7.3
+[1.284s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.284s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.284s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.287s] -- Gazebo version: 11.10
+[1.288s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.327s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.331s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.340s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.468s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.472s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.907s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.292s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.580s] -- Configuring done
+[2.628s] -- Generating done
+[2.631s] -- Build files have been written to: /home/jason/Desktop/navi/build/velodyne_gazebo_plugins
+[2.672s] Invoked command in '/home/jason/Desktop/navi/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/velodyne_gazebo_plugins
+[2.673s] Invoking command in '/home/jason/Desktop/navi/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/velodyne_gazebo_plugins -- -j20 -l20
+[2.726s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros_velodyne_laser[0m
+[2.792s] [100%] Built target gazebo_ros_velodyne_laser
+[2.808s] Invoked command in '/home/jason/Desktop/navi/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/velodyne_gazebo_plugins -- -j20 -l20
+[2.914s] Invoking command in '/home/jason/Desktop/navi/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/velodyne_gazebo_plugins
+[2.926s] -- Install configuration: "Release"
+[2.927s] -- Execute custom install script
+[2.927s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+[2.927s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.hpp
+[2.927s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+[2.928s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+[2.929s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+[2.929s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+[2.929s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+[2.930s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+[2.930s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+[2.930s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+[2.930s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+[2.930s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+[2.931s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+[2.931s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+[2.931s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+[2.945s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+[2.945s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.945s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[2.949s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.949s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+[2.949s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+[2.949s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
+[2.990s] Invoked command in '/home/jason/Desktop/navi/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/velodyne_gazebo_plugins

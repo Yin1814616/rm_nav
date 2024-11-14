@@ -1,0 +1,70 @@
+[0.076s] Invoking command in '/home/jason/Desktop/navi/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/joystick_drivers/joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/joy
+[1.176s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.176s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.176s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.176s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.176s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.176s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.177s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.177s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.177s] -- Found sdl2_vendor: 3.3.0 (/opt/ros/humble/share/sdl2_vendor/cmake)
+[1.177s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.177s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.192s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.192s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/joystick_drivers/joy/include>
+[1.192s] -- Configured cppcheck exclude dirs and/or files: 
+[1.193s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.193s] -- Configured cpplint exclude dirs and/or files: 
+[1.194s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.194s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.196s] -- Added test 'uncrustify' to check C / C++ code style
+[1.196s] -- Configured uncrustify additional arguments: 
+[1.197s] -- Added test 'xmllint' to check XML markup files
+[1.199s] -- Configuring done
+[1.221s] -- Generating done
+[1.224s] -- Build files have been written to: /home/jason/Desktop/navi/build/joy
+[1.236s] Invoked command in '/home/jason/Desktop/navi/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/joystick_drivers/joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/joy
+[1.237s] Invoking command in '/home/jason/Desktop/navi/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/joy -- -j20 -l20
+[2.667s] [35m[1mConsolidate compiler generated dependencies of target joy_enumerate_devices[0m
+[2.667s] [35m[1mConsolidate compiler generated dependencies of target joy_node[0m
+[2.667s] [35m[1mConsolidate compiler generated dependencies of target joy[0m
+[2.667s] [ 33%] Built target joy
+[2.667s] [100%] Built target joy_enumerate_devices
+[2.667s] [100%] Built target joy_node
+[2.673s] Invoked command in '/home/jason/Desktop/navi/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/joy -- -j20 -l20
+[2.746s] Invoking command in '/home/jason/Desktop/navi/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/joy
+[2.856s] -- Install configuration: "Release"
+[2.856s] -- Execute custom install script
+[2.857s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/lib/joy/joy_node
+[2.857s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/lib/joy/joy_enumerate_devices
+[2.857s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/include/joy/joy/joy.hpp
+[2.857s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/config/joy-params.yaml
+[2.857s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/launch/joy-composed-launch.py
+[2.858s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/launch/joy-launch.py
+[2.858s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[2.858s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[2.858s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/ament_prefix_path.sh
+[2.859s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/ament_prefix_path.dsv
+[2.859s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/path.sh
+[2.859s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/environment/path.dsv
+[2.860s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.bash
+[2.860s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.sh
+[2.861s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.zsh
+[2.861s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/local_setup.dsv
+[2.861s] -- Symlinking: /home/jason/Desktop/navi/install/joy/share/joy/package.dsv
+[2.861s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/packages/joy
+[2.861s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[2.862s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[2.862s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.862s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/joyConfig.cmake
+[2.862s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/cmake/joyConfig-version.cmake
+[2.862s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/joy/share/joy/package.xml
+[2.863s] -- Up-to-date: /home/jason/Desktop/navi/install/joy/lib/libjoy.so
+[2.863s] -- Up-to-date: /home/jason/Desktop/navi/install/joy/share/joy/cmake/export_joyExport.cmake
+[2.863s] -- Up-to-date: /home/jason/Desktop/navi/install/joy/share/joy/cmake/export_joyExport-release.cmake
+[2.880s] Invoked command in '/home/jason/Desktop/navi/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/joy

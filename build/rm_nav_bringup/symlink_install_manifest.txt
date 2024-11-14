@@ -1,0 +1,17 @@
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/launch/nav_bringup.launch.py
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/rviz/rm_nav.rviz
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/ament_index/resource_index/package_run_dependencies/rm_nav_bringup
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/ament_index/resource_index/parent_prefix_path/rm_nav_bringup
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/environment/ament_prefix_path.sh
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/environment/ament_prefix_path.dsv
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/environment/path.sh
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/environment/path.dsv
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/local_setup.bash
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/local_setup.sh
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/local_setup.zsh
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/local_setup.dsv
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/package.dsv
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/ament_index/resource_index/packages/rm_nav_bringup
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/cmake/rm_nav_bringupConfig.cmake
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/cmake/rm_nav_bringupConfig-version.cmake
+/home/jason/Desktop/navi/install/rm_nav_bringup/share/rm_nav_bringup/package.xml

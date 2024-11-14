@@ -1,0 +1,125 @@
+[0.076s] Invoking command in '/home/jason/Desktop/navi/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/sensor_scan_generation
+[0.367s] -- The C compiler identification is GNU 11.4.0
+[0.524s] -- The CXX compiler identification is GNU 11.4.0
+[0.552s] -- Detecting C compiler ABI info
+[0.829s] -- Detecting C compiler ABI info - done
+[0.892s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.893s] -- Detecting C compile features
+[0.894s] -- Detecting C compile features - done
+[0.904s] -- Detecting CXX compiler ABI info
+[1.193s] -- Detecting CXX compiler ABI info - done
+[1.216s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.217s] -- Detecting CXX compile features
+[1.235s] -- Detecting CXX compile features - done
+[1.242s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.944s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.303s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.569s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.593s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.651s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.245s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.250s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.772s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.847s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.011s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.034s] -- Looking for pthread.h
+[4.315s] -- Looking for pthread.h - found
+[4.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.667s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.667s] -- Found Threads: TRUE  
+[5.433s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.105s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.568s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.485s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.522s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.526s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.527s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.556s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[7.917s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[8.354s] -- Checking for module 'eigen3'
+[8.424s] --   Found eigen3, version 3.4.0
+[8.579s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[8.579s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.700s] -- Checking for module 'flann'
+[8.780s] --   Found flann, version 1.9.1
+[8.941s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[8.941s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.950s] -- Checking for module 'libusb-1.0'
+[11.979s] --   Found libusb-1.0, version 1.0.25
+[12.058s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[12.061s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.181s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.625s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.645s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.663s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.113s] -- Found Qhull version 8.0.2
+[13.539s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.269s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.313s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[14.313s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.313s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[14.313s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[14.313s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[14.314s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[14.314s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[14.327s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.329s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[14.338s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[14.340s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[14.356s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[14.356s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[14.366s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[14.369s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[14.394s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[14.397s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[14.420s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[14.467s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[14.467s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[14.467s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[14.467s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[14.504s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[14.545s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[14.759s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.995s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.011s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.011s] -- Configured cppcheck include dirs: 
+[15.012s] -- Configured cppcheck exclude dirs and/or files: 
+[15.014s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.014s] -- Configured cpplint exclude dirs and/or files: 
+[15.017s] -- Added test 'lint_cmake' to check CMake code style
+[15.020s] -- Added test 'uncrustify' to check C / C++ code style
+[15.020s] -- Configured uncrustify additional arguments: 
+[15.022s] -- Added test 'xmllint' to check XML markup files
+[15.027s] -- Configuring done
+[15.189s] -- Generating done
+[15.196s] -- Build files have been written to: /home/jason/Desktop/navi/build/sensor_scan_generation
+[15.254s] Invoked command in '/home/jason/Desktop/navi/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/sensor_scan_generation
+[15.255s] Invoking command in '/home/jason/Desktop/navi/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/sensor_scan_generation -- -j20 -l20
+[26.708s] [ 50%] [32mBuilding CXX object CMakeFiles/sensorScanGeneration.dir/src/sensorScanGeneration.cpp.o[0m
+[87.319s] [100%] [32m[1mLinking CXX executable sensorScanGeneration[0m
+[88.024s] [100%] Built target sensorScanGeneration
+[88.036s] Invoked command in '/home/jason/Desktop/navi/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/sensor_scan_generation -- -j20 -l20
+[88.065s] Invoking command in '/home/jason/Desktop/navi/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/sensor_scan_generation
+[88.072s] -- Install configuration: "Release"
+[88.073s] -- Execute custom install script
+[88.073s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration
+[88.082s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch
+[88.091s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[88.100s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[88.111s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[88.121s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[88.131s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[88.140s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[88.150s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[88.160s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[88.170s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[88.180s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[88.190s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[88.200s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[88.209s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[88.219s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[88.229s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[88.243s] Invoked command in '/home/jason/Desktop/navi/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/sensor_scan_generation

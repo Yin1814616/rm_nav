@@ -1,0 +1,12 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/jason/Desktop/navi/install/a_star/share/a_star/package.sh"
+. "/home/jason/Desktop/navi/install/livox_ros_driver2/share/livox_ros_driver2/package.sh"
+. "/home/jason/Desktop/navi/install/loam_interface/share/loam_interface/package.sh"
+. "/home/jason/Desktop/navi/install/local_planner/share/local_planner/package.sh"
+. "/home/jason/Desktop/navi/install/mapping/share/mapping/package.sh"
+. "/home/jason/Desktop/navi/install/path2waypoint/share/path2waypoint/package.sh"
+. "/home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/package.sh"
+. "/home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.sh"
+. "/home/jason/Desktop/navi/install/terrain_analysis_ext/share/terrain_analysis_ext/package.sh"
+. "/home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/package.sh"
+. "/home/jason/Desktop/navi/install/fast_lio/share/fast_lio/package.sh"

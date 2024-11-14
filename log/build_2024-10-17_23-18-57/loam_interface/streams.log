@@ -1,0 +1,52 @@
+[0.069s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/loam_interface
+[0.132s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.336s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.376s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.381s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.530s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.958s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.148s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.276s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.757s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.762s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.763s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.774s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.964s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.186s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.246s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.714s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.722s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.977s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.985s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.999s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.243s] -- Found Qhull version 8.0.2
+[3.503s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.064s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.251s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.253s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.255s] -- Configured cppcheck include dirs: 
+[4.256s] -- Configured cppcheck exclude dirs and/or files: 
+[4.258s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.259s] -- Configured cpplint exclude dirs and/or files: 
+[4.261s] -- Added test 'lint_cmake' to check CMake code style
+[4.263s] -- Added test 'uncrustify' to check C / C++ code style
+[4.263s] -- Configured uncrustify additional arguments: 
+[4.265s] -- Added test 'xmllint' to check XML markup files
+[4.278s] -- Configuring done
+[4.368s] -- Generating done
+[4.374s] -- Build files have been written to: /home/jason/Desktop/navi/build/loam_interface
+[4.465s] Invoked command in '/home/jason/Desktop/navi/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/loam_interface
+[4.468s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/loam_interface -- -j20 -l20
+[5.220s] [35m[1mConsolidate compiler generated dependencies of target loamInterface[0m
+[5.221s] [ 50%] [32mBuilding CXX object CMakeFiles/loamInterface.dir/src/loamInterface.cpp.o[0m
+[19.053s] gmake[2]: *** wait: No child processes.  Stop.
+[19.053s] gmake[2]: *** Waiting for unfinished jobs....
+[19.054s] gmake[2]: *** wait: No child processes.  Stop.
+[19.054s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/loamInterface.dir/all] Error 2
+[19.065s] gmake: *** [Makefile:146: all] Interrupt

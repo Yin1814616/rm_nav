@@ -1,0 +1,118 @@
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:45[m[K:
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:[m[K In function ‘[01m[Kvoid publish_frame_world(rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  510 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "scan_pub_en");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  510 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  510 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  510 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  510 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  510 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:45[m[K:
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  510 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "scan_pub_en");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:510:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  510 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "scan_pub_en");
+      |                     [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:45[m[K:
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  536 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "scan_pub_en");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  536 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  536 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  536 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  536 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  536 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "scan_pub_en");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:45[m[K:
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  536 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "scan_pub_en");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/jason/Desktop/navi/src/localization/FAST_LIO/src/laserMapping.cpp:536:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  536 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "scan_pub_en");
+      |                     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/fastlio_mapping.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

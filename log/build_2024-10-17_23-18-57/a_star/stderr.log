@@ -1,0 +1,6 @@
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/a_star_node.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/a_star.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

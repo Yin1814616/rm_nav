@@ -1,0 +1,26 @@
+[0.072s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/loam_interface -- -j20 -l20
+[0.294s] [ 50%] [32mBuilding CXX object CMakeFiles/loamInterface.dir/src/loamInterface.cpp.o[0m
+[53.775s] [100%] [32m[1mLinking CXX executable loamInterface[0m
+[54.749s] [100%] Built target loamInterface
+[54.774s] Invoked command in '/home/jason/Desktop/navi/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/loam_interface -- -j20 -l20
+[54.839s] Invoking command in '/home/jason/Desktop/navi/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/loam_interface
+[54.856s] -- Install configuration: "Release"
+[54.861s] -- Execute custom install script
+[54.862s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/lib/loam_interface/loamInterface
+[54.863s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/launch/loam_interface.launch
+[54.863s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[54.863s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[54.863s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[54.864s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[54.864s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/path.sh
+[54.864s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/environment/path.dsv
+[54.864s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.bash
+[54.865s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.sh
+[54.865s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.zsh
+[54.865s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/local_setup.dsv
+[54.865s] -- Symlinking: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/package.dsv
+[54.884s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[54.885s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[54.885s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[54.886s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/loam_interface/share/loam_interface/package.xml
+[54.906s] Invoked command in '/home/jason/Desktop/navi/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/loam_interface

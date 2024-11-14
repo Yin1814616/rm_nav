@@ -1,0 +1,26 @@
+[0.072s] Invoking command in '/home/jason/Desktop/navi/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/sensor_scan_generation -- -j20 -l20
+[0.279s] [ 50%] [32mBuilding CXX object CMakeFiles/sensorScanGeneration.dir/src/sensorScanGeneration.cpp.o[0m
+[54.590s] [100%] [32m[1mLinking CXX executable sensorScanGeneration[0m
+[55.429s] [100%] Built target sensorScanGeneration
+[55.453s] Invoked command in '/home/jason/Desktop/navi/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/sensor_scan_generation -- -j20 -l20
+[55.522s] Invoking command in '/home/jason/Desktop/navi/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/sensor_scan_generation
+[55.538s] -- Install configuration: "Release"
+[55.539s] -- Execute custom install script
+[55.540s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration
+[55.541s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch
+[55.548s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[55.548s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[55.549s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[55.549s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[55.549s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[55.549s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[55.549s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[55.549s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[55.550s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[55.550s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[55.550s] -- Symlinking: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[55.574s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[55.575s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[55.575s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[55.576s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[55.583s] Invoked command in '/home/jason/Desktop/navi/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/sensor_scan_generation

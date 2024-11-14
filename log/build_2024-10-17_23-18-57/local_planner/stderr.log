@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/pathFollower.dir/build.make:76: CMakeFiles/pathFollower.dir/src/pathFollower.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/localPlanner.dir/build.make:76: CMakeFiles/localPlanner.dir/src/localPlanner.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/localPlanner.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pathFollower.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

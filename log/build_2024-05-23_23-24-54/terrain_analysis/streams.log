@@ -1,0 +1,69 @@
+[0.063s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/terrain_analysis -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/terrain_analysis
+[0.122s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.253s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.275s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.331s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.482s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.909s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.099s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.230s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.730s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.735s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.737s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.751s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.931s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.137s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.181s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.598s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.605s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.804s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.814s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.821s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.029s] -- Found Qhull version 8.0.2
+[3.253s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.567s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.631s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.632s] -- Configured cppcheck include dirs: 
+[3.632s] -- Configured cppcheck exclude dirs and/or files: 
+[3.633s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.633s] -- Configured cpplint exclude dirs and/or files: 
+[3.633s] -- Added test 'lint_cmake' to check CMake code style
+[3.634s] -- Added test 'uncrustify' to check C / C++ code style
+[3.634s] -- Configured uncrustify additional arguments: 
+[3.634s] -- Added test 'xmllint' to check XML markup files
+[3.636s] -- Configuring done
+[3.680s] -- Generating done
+[3.680s] -- Build files have been written to: /home/jason/Desktop/navi/build/terrain_analysis
+[3.708s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/terrain_analysis -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/terrain_analysis
+[3.711s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/terrain_analysis -- -j20 -l20
+[3.758s] [35m[1mConsolidate compiler generated dependencies of target terrainAnalysis[0m
+[3.780s] [100%] Built target terrainAnalysis
+[3.789s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/terrain_analysis -- -j20 -l20
+[3.816s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/terrain_analysis
+[3.822s] -- Install configuration: "Release"
+[3.822s] -- Execute custom install script
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[3.823s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[3.824s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[3.824s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[3.824s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[3.824s] -- Symlinking: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.dsv
+[3.832s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[3.832s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[3.832s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[3.833s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.xml
+[3.836s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/terrain_analysis

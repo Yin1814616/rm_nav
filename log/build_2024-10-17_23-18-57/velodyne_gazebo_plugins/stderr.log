@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make:76: CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_ros_velodyne_laser.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

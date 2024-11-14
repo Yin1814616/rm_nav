@@ -1,0 +1,58 @@
+[0.099s] Invoking command in '/home/jason/Desktop/navi/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/velodyne_description
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[0.615s] -- The CXX compiler identification is GNU 11.4.0
+[0.683s] -- Detecting C compiler ABI info
+[1.102s] -- Detecting C compiler ABI info - done
+[1.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.132s] -- Detecting C compile features
+[1.132s] -- Detecting C compile features - done
+[1.153s] -- Detecting CXX compiler ABI info
+[1.609s] -- Detecting CXX compiler ABI info - done
+[1.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.645s] -- Detecting CXX compile features
+[1.665s] -- Detecting CXX compile features - done
+[1.673s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.435s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.775s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.201s] -- Configuring done
+[3.208s] -- Generating done
+[3.210s] -- Build files have been written to: /home/jason/Desktop/navi/build/velodyne_description
+[3.226s] Invoked command in '/home/jason/Desktop/navi/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/velodyne_description
+[3.227s] Invoking command in '/home/jason/Desktop/navi/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/velodyne_description -- -j20 -l20
+[12.911s] Invoked command in '/home/jason/Desktop/navi/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/velodyne_description -- -j20 -l20
+[13.149s] Invoking command in '/home/jason/Desktop/navi/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/velodyne_description
+[14.203s] -- Install configuration: "Release"
+[14.203s] -- Execute custom install script
+[14.203s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/launch/example.launch.py
+[14.203s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[14.203s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[14.203s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[14.203s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[14.203s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[14.204s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/world/example.world
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/environment/velodyne_description.dsv
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/environment/path.sh
+[14.205s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/local_setup.bash
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/local_setup.sh
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/package.dsv
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[14.206s] -- Symlinking: /home/jason/Desktop/navi/install/velodyne_description/share/velodyne_description/package.xml
+[14.234s] Invoked command in '/home/jason/Desktop/navi/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/velodyne_description

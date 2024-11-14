@@ -1,0 +1,30 @@
+[0.074s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/terrain_analysis -- -j20 -l20
+[0.275s] [ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysis.dir/src/terrainAnalysis.cpp.o[0m
+[21.471s] [01m[K/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/terrain_analysis/src/terrainAnalysis.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[21.472s] [01m[K/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/terrain_analysis/src/terrainAnalysis.cpp:485:43:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[21.472s]   485 |                 if ([01;35m[Kangle4 > minDyObsVFOV && angle4 < maxDyObsVFOV[m[K || fabs(pointZ4) < absDyObsRelZThre) {
+[21.472s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[60.243s] [100%] [32m[1mLinking CXX executable terrainAnalysis[0m
+[61.151s] [100%] Built target terrainAnalysis
+[61.168s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/terrain_analysis -- -j20 -l20
+[61.213s] Invoking command in '/home/jason/Desktop/navi/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/terrain_analysis
+[61.224s] -- Install configuration: "Release"
+[61.226s] -- Execute custom install script
+[61.226s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+[61.227s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+[61.228s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[61.228s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[61.228s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[61.229s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[61.229s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[61.229s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[61.229s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[61.229s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[61.229s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[61.230s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[61.230s] -- Symlinking: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.dsv
+[61.246s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[61.246s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[61.246s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[61.246s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.xml
+[61.250s] Invoked command in '/home/jason/Desktop/navi/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/terrain_analysis

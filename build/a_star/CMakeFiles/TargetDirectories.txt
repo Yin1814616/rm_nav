@@ -1,0 +1,11 @@
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/uninstall.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/a_star_uninstall.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/a_star.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/a_star_node.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/test.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/edit_cache.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/rebuild_cache.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/list_install_components.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/install.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/install/local.dir
+/home/jason/Desktop/navi/build/a_star/CMakeFiles/install/strip.dir

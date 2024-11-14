@@ -1,0 +1,10 @@
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/uninstall.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/path2waypoint_uninstall.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/path2waypoint.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/test.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/edit_cache.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/rebuild_cache.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/list_install_components.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/install.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/install/local.dir
+/home/jason/Desktop/navi/build/path2waypoint/CMakeFiles/install/strip.dir

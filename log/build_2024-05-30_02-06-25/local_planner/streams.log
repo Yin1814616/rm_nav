@@ -1,0 +1,31 @@
+[0.073s] Invoking command in '/home/jason/Desktop/navi/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/local_planner -- -j20 -l20
+[0.170s] [ 50%] Built target pathFollower
+[0.171s] [100%] Built target localPlanner
+[0.219s] Invoked command in '/home/jason/Desktop/navi/build/local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/local_planner -- -j20 -l20
+[0.353s] Invoking command in '/home/jason/Desktop/navi/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/local_planner
+[0.362s] -- Install configuration: "Release"
+[0.363s] -- Execute custom install script
+[0.363s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/lib/local_planner/localPlanner
+[0.363s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/lib/local_planner/pathFollower
+[0.364s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/launch/local_planner.launch
+[0.364s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/paths/correspondences.txt
+[0.364s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/paths/pathList.ply
+[0.365s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/paths/path_generator.m
+[0.365s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/paths/paths.ply
+[0.365s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/paths/startPaths.ply
+[0.366s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner
+[0.366s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner
+[0.366s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/environment/ament_prefix_path.sh
+[0.367s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv
+[0.367s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/environment/path.sh
+[0.367s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/environment/path.dsv
+[0.368s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/local_setup.bash
+[0.368s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/local_setup.sh
+[0.368s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/local_setup.zsh
+[0.368s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/local_setup.dsv
+[0.370s] -- Symlinking: /home/jason/Desktop/navi/install/local_planner/share/local_planner/package.dsv
+[0.382s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/ament_index/resource_index/packages/local_planner
+[0.382s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake
+[0.382s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
+[0.383s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/local_planner/share/local_planner/package.xml
+[0.435s] Invoked command in '/home/jason/Desktop/navi/build/local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/local_planner

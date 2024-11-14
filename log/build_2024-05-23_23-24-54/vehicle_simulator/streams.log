@@ -1,0 +1,181 @@
+[0.061s] Invoking command in '/home/jason/Desktop/navi/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/vehicle_simulator -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/vehicle_simulator
+[0.115s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.264s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.272s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.322s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.326s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.472s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.477s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.866s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.019s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.107s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.525s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.528s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.528s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.528s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.536s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.749s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.789s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.806s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.813s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.814s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.818s] -- Searching for dependencies of ignition-math6
+[1.820s] -- Looking for OGRE...
+[1.825s] -- Found Ogre Ghadamon (1.9.0)
+[1.825s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.834s] -- Looking for OGRE_Paging...
+[1.834s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.834s] -- Looking for OGRE_Terrain...
+[1.834s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.834s] -- Looking for OGRE_Property...
+[1.834s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.834s] -- Looking for OGRE_RTShaderSystem...
+[1.834s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.835s] -- Looking for OGRE_Volume...
+[1.835s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.835s] -- Looking for OGRE_Overlay...
+[1.835s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.969s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.969s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.970s] -- Searching for dependencies of ignition-transport8
+[1.987s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.999s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.005s] -- Checking for module 'libzmq >= 4'
+[2.023s] --   Found libzmq , version 4.3.4
+[2.071s] -- Checking for module 'uuid'
+[2.083s] --   Found uuid, version 2.37.2
+[2.126s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.126s] -- Searching for dependencies of ignition-msgs5
+[2.152s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.158s] -- Checking for module 'tinyxml2'
+[2.174s] --   Found tinyxml2, version 9.0.0
+[2.213s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.213s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.214s] -- Searching for dependencies of ignition-common3
+[2.214s] -- Looking for dlfcn.h - found
+[2.214s] -- Looking for libdl - found
+[2.229s] -- Searching for <ignition-common3> component [graphics]
+[2.229s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.230s] -- Searching for dependencies of ignition-common3-graphics
+[2.230s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.231s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.231s] -- Searching for dependencies of ignition-fuel_tools4
+[2.284s] -- Checking for module 'jsoncpp'
+[2.303s] --   Found jsoncpp, version 1.9.5
+[2.354s] -- Checking for module 'libzip'
+[2.367s] --   Found libzip, version 1.7.3
+[2.409s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.410s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.410s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.412s] -- Gazebo version: 11.10
+[2.446s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.454s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.507s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.746s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.944s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.952s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.952s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.155s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.162s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.171s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.338s] -- Found Qhull version 8.0.2
+[3.492s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.655s] -- looking for PCL_COMMON
+[3.655s] -- looking for PCL_KDTREE
+[3.655s] -- looking for PCL_OCTREE
+[3.655s] -- looking for PCL_SEARCH
+[3.655s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.655s] -- looking for PCL_FILTERS
+[3.656s] -- looking for PCL_2D
+[3.656s] -- looking for PCL_GEOMETRY
+[3.656s] -- looking for PCL_IO
+[3.656s] -- looking for PCL_FEATURES
+[3.656s] -- looking for PCL_ML
+[3.656s] -- looking for PCL_SEGMENTATION
+[3.656s] -- looking for PCL_VISUALIZATION
+[3.657s] -- looking for PCL_SURFACE
+[3.657s] -- looking for PCL_REGISTRATION
+[3.657s] -- looking for PCL_KEYPOINTS
+[3.658s] -- looking for PCL_TRACKING
+[3.658s] -- looking for PCL_RECOGNITION
+[3.659s] -- looking for PCL_STEREO
+[3.659s] -- looking for PCL_APPS
+[3.660s] -- looking for PCL_IN_HAND_SCANNER
+[3.660s] -- looking for PCL_MODELER
+[3.661s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.661s] -- looking for PCL_OUTOFCORE
+[3.661s] -- looking for PCL_PEOPLE
+[3.661s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.763s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.952s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.007s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.009s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.009s] -- Configured cppcheck include dirs: /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/vehicle_simulator/include
+[4.009s] -- Configured cppcheck exclude dirs and/or files: 
+[4.010s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.010s] -- Configured cpplint exclude dirs and/or files: 
+[4.010s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.011s] -- Added test 'lint_cmake' to check CMake code style
+[4.011s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.012s] -- Added test 'uncrustify' to check C / C++ code style
+[4.012s] -- Configured uncrustify additional arguments: 
+[4.012s] -- Added test 'xmllint' to check XML markup files
+[4.013s] -- Configuring done
+[4.047s] -- Generating done
+[4.049s] -- Build files have been written to: /home/jason/Desktop/navi/build/vehicle_simulator
+[4.063s] Invoked command in '/home/jason/Desktop/navi/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/vehicle_simulator -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/vehicle_simulator
+[4.064s] Invoking command in '/home/jason/Desktop/navi/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/vehicle_simulator -- -j20 -l20
+[4.100s] [35m[1mConsolidate compiler generated dependencies of target vehicleSimulator[0m
+[4.125s] [100%] Built target vehicleSimulator
+[4.134s] Invoked command in '/home/jason/Desktop/navi/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/vehicle_simulator -- -j20 -l20
+[4.157s] Invoking command in '/home/jason/Desktop/navi/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/vehicle_simulator
+[4.163s] -- Install configuration: "Release"
+[4.164s] -- Execute custom install script
+[4.164s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/lib/vehicle_simulator/vehicleSimulator
+[4.164s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_campus.launch
+[4.164s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_forest.launch
+[4.164s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_garage.launch.py
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_indoor.launch
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot.launch.py
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_tunnel.launch
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/log/readme.txt
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/download_environments.sh
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/blue-concrete-texture-3.jpg
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/garage.dae
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-RySXiqZBriXUB4J.jpg
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-pLFAF53NCY1Spr.jpg
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-turvdQ7ZY0r.jpg
+[4.165s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/model.config
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/model.sdf
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/preview/overview.png
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/preview/pointcloud.ply
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/rviz/vehicle_simulator.rviz
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/urdf/camera.urdf.xacro
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/urdf/lidar.urdf.xacro
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/urdf/robot.sdf
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/campus.world
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/forest.world
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/garage.world
+[4.166s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/indoor.world
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/tunnel.world
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/ament_index/resource_index/package_run_dependencies/vehicle_simulator
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/ament_index/resource_index/parent_prefix_path/vehicle_simulator
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.sh
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.dsv
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/path.sh
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/path.dsv
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.bash
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.sh
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.zsh
+[4.167s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.dsv
+[4.167s] -- Symlinking: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/package.dsv
+[4.174s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/ament_index/resource_index/packages/vehicle_simulator
+[4.174s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig.cmake
+[4.174s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig-version.cmake
+[4.174s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/package.xml
+[4.176s] Invoked command in '/home/jason/Desktop/navi/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/vehicle_simulator

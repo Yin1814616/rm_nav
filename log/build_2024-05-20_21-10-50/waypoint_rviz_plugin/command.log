@@ -1,0 +1,4 @@
+Invoking command in '/home/jason/Desktop/navi/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/waypoint_rviz_plugin -- -j20 -l20
+Invoked command in '/home/jason/Desktop/navi/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/waypoint_rviz_plugin -- -j20 -l20
+Invoking command in '/home/jason/Desktop/navi/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/waypoint_rviz_plugin
+Invoked command in '/home/jason/Desktop/navi/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/waypoint_rviz_plugin

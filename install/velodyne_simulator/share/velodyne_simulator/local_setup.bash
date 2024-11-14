@@ -1,0 +1,1 @@
+/home/jason/Desktop/navi/build/velodyne_simulator/ament_cmake_environment_hooks/local_setup.bash

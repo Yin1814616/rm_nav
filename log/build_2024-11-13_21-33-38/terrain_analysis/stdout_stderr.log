@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysis.dir/src/terrainAnalysis.cpp.o[0m
+[01m[K/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/terrain_analysis/src/terrainAnalysis.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jason/Desktop/navi/src/local_planner/autonomous_exploration_development_environment/src/terrain_analysis/src/terrainAnalysis.cpp:485:43:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  485 |                 if ([01;35m[Kangle4 > minDyObsVFOV && angle4 < maxDyObsVFOV[m[K || fabs(pointZ4) < absDyObsRelZThre) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable terrainAnalysis[0m
+[100%] Built target terrainAnalysis
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+-- Symlinking: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.dsv
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+-- Up-to-date symlink: /home/jason/Desktop/navi/install/terrain_analysis/share/terrain_analysis/package.xml

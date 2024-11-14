@@ -1,0 +1,50 @@
+[0.068s] Invoking command in '/home/jason/Desktop/navi/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/vehicle_simulator -- -j20 -l20
+[0.252s] [100%] Built target vehicleSimulator
+[0.310s] Invoked command in '/home/jason/Desktop/navi/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/vehicle_simulator -- -j20 -l20
+[0.428s] Invoking command in '/home/jason/Desktop/navi/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/vehicle_simulator
+[0.457s] -- Install configuration: "Release"
+[0.457s] -- Execute custom install script
+[0.457s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/lib/vehicle_simulator/vehicleSimulator
+[0.457s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_campus.launch
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_forest.launch
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_garage.launch.py
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_indoor.launch
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot.launch.py
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/system_tunnel.launch
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/log/readme.txt
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/download_environments.sh
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/blue-concrete-texture-3.jpg
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/garage.dae
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-RySXiqZBriXUB4J.jpg
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-pLFAF53NCY1Spr.jpg
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-turvdQ7ZY0r.jpg
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/model.config
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/model.sdf
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/preview/overview.png
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/preview/pointcloud.ply
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/rviz/vehicle_simulator.rviz
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/urdf/camera.urdf.xacro
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/urdf/lidar.urdf.xacro
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/urdf/robot.sdf
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/campus.world
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/forest.world
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/garage.world
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/indoor.world
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/world/tunnel.world
+[0.458s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/ament_index/resource_index/package_run_dependencies/vehicle_simulator
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/ament_index/resource_index/parent_prefix_path/vehicle_simulator
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.sh
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.dsv
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/path.sh
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/environment/path.dsv
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.bash
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.sh
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.zsh
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/local_setup.dsv
+[0.459s] -- Symlinking: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/package.dsv
+[0.461s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/ament_index/resource_index/packages/vehicle_simulator
+[0.461s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig.cmake
+[0.461s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig-version.cmake
+[0.461s] -- Up-to-date symlink: /home/jason/Desktop/navi/install/vehicle_simulator/share/vehicle_simulator/package.xml
+[0.557s] Invoked command in '/home/jason/Desktop/navi/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/vehicle_simulator

@@ -1,0 +1,79 @@
+[0.087s] Invoking command in '/home/jason/Desktop/navi/build/a_star': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/global_planner/a_star -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/a_star
+[0.309s] -- The C compiler identification is GNU 11.4.0
+[0.585s] -- The CXX compiler identification is GNU 11.4.0
+[0.622s] -- Detecting C compiler ABI info
+[0.953s] -- Detecting C compiler ABI info - done
+[0.974s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.975s] -- Detecting C compile features
+[0.976s] -- Detecting C compile features - done
+[0.984s] -- Detecting CXX compiler ABI info
+[1.448s] -- Detecting CXX compiler ABI info - done
+[1.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.485s] -- Detecting CXX compile features
+[1.486s] -- Detecting CXX compile features - done
+[1.537s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.311s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.588s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.233s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.244s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.271s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.593s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.599s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.926s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.996s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.242s] -- Looking for pthread.h
+[4.491s] -- Looking for pthread.h - found
+[4.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.933s] -- Found Threads: TRUE  
+[5.958s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.008s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.009s] -- Configured cppcheck include dirs: /home/jason/Desktop/navi/src/global_planner/a_star/include
+[6.009s] -- Configured cppcheck exclude dirs and/or files: 
+[6.012s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.012s] -- Configured cpplint exclude dirs and/or files: 
+[6.014s] -- Added test 'lint_cmake' to check CMake code style
+[6.016s] -- Added test 'xmllint' to check XML markup files
+[6.023s] -- Configuring done
+[6.054s] -- Generating done
+[6.058s] -- Build files have been written to: /home/jason/Desktop/navi/build/a_star
+[6.087s] Invoked command in '/home/jason/Desktop/navi/build/a_star' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/navi/src/global_planner/a_star -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/navi/install/a_star
+[6.088s] Invoking command in '/home/jason/Desktop/navi/build/a_star': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/a_star -- -j20 -l20
+[12.934s] [ 25%] [32mBuilding CXX object CMakeFiles/a_star.dir/src/a_star.cpp.o[0m
+[12.934s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_node.dir/rclcpp_components/node_main_a_star_node.cpp.o[0m
+[20.974s] [ 75%] [32m[1mLinking CXX executable a_star_node[0m
+[21.671s] [ 75%] Built target a_star_node
+[87.910s] [100%] [32m[1mLinking CXX shared library liba_star.so[0m
+[88.413s] [100%] Built target a_star
+[88.425s] Invoked command in '/home/jason/Desktop/navi/build/a_star' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/navi/build/a_star -- -j20 -l20
+[88.452s] Invoking command in '/home/jason/Desktop/navi/build/a_star': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/a_star
+[88.459s] -- Install configuration: "Release"
+[88.460s] -- Execute custom install script
+[88.460s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/lib/a_star/a_star_node
+[88.470s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/include/a_star/a_star.hpp
+[88.478s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/library_path.sh
+[88.487s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/library_path.dsv
+[88.497s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/lib/liba_star.so
+[88.506s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/package_run_dependencies/a_star
+[88.514s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/parent_prefix_path/a_star
+[88.526s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/ament_prefix_path.sh
+[88.534s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/ament_prefix_path.dsv
+[88.543s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/path.sh
+[88.552s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/environment/path.dsv
+[88.560s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.bash
+[88.569s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.sh
+[88.580s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.zsh
+[88.590s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/local_setup.dsv
+[88.598s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/package.dsv
+[88.611s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/packages/a_star
+[88.619s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/ament_index/resource_index/rclcpp_components/a_star
+[88.628s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_dependencies-extras.cmake
+[88.637s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_include_directories-extras.cmake
+[88.646s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/ament_cmake_export_libraries-extras.cmake
+[88.654s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/a_starConfig.cmake
+[88.663s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/cmake/a_starConfig-version.cmake
+[88.672s] -- Symlinking: /home/jason/Desktop/navi/install/a_star/share/a_star/package.xml
+[88.683s] Invoked command in '/home/jason/Desktop/navi/build/a_star' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/navi/build/a_star

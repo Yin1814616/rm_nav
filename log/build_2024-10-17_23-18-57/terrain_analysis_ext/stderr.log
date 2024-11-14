@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/terrainAnalysisExt.dir/build.make:76: CMakeFiles/terrainAnalysisExt.dir/src/terrainAnalysisExt.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/terrainAnalysisExt.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

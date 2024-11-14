@@ -1,0 +1,22 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m/usr/include/apr-1.0[0m
+[0mapr-1[0m
+In file included from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/driver_node.h:28[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/driver_node.cpp:25[m[K:
+[01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/include/ros_headers.h:28:[m[K [01;35m[Kwarning: [m[K"BUILDING_ROS2" redefined
+   28 | #define BUILDING_ROS2
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+In file included from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/driver_node.h:28[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/lddc.h:30[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/lddc.cpp:25[m[K:
+[01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/include/ros_headers.h:28:[m[K [01;35m[Kwarning: [m[K"BUILDING_ROS2" redefined
+   28 | #define BUILDING_ROS2
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+In file included from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/driver_node.h:28[m[K,
+                 from [01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/livox_ros_driver2.cpp:32[m[K:
+[01m[K/home/jason/Desktop/navi/src/sensor_driver/livox_ros_driver2/src/include/ros_headers.h:28:[m[K [01;35m[Kwarning: [m[K"BUILDING_ROS2" redefined
+   28 | #define BUILDING_ROS2
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition

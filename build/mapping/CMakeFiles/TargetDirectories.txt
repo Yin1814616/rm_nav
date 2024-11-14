@@ -1,0 +1,9 @@
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/uninstall.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/mapping_uninstall.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/test.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/edit_cache.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/rebuild_cache.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/list_install_components.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/install.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/install/local.dir
+/home/jason/Desktop/navi/build/mapping/CMakeFiles/install/strip.dir
